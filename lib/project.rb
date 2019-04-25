@@ -8,5 +8,6 @@ class Project
       #accepts backer as an argument and stores it in backer array
       @backers << backer
       backer.backed_project << self
+      self.backed_project << project
     end
 end
