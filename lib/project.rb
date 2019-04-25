@@ -9,6 +9,6 @@ class Project
       @backers << backer
       backer.backed_projects << self
       # => name.backed_project(self)
-      
+
     end
 end
