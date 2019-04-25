@@ -4,7 +4,7 @@ class Backer
   def initialize(name)
     @name = name
   end
-  def new
+  def self.new
     @new
   end
 end
